@@ -7,6 +7,6 @@
 var nome = prompt('Inserisci il tuo nome');
 var cognome = prompt('Inserisci il tuo cognome');
 var colorePreferito = prompt('Qual è il tuo colore preferito?');
-var res = (nome + cognome + colorePreferito).toLowerCase();
+// var res = (nome + cognome + colorePreferito).toLowerCase();
 
-document.getElementById('presentazione').innerHTML= res + 19;
+document.getElementById('presentazione').innerHTML= (nome + cognome + colorePreferito).toLowerCase() + 19;
